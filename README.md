@@ -88,4 +88,5 @@ Yumei Sun: sunyumei20@mails.ucas.ac.cn
 
 ## Acknowledgments
 * Thanks for [PyTracking](https://github.com/visionml/pytracking) Library and [MixFormer](https://github.com/MCG-NJU/MixFormer) Library, which helps us to quickly implement our ideas.
+* We use the implementation of the convmae from the official repo [convmae]([https://github.com/Alpha-VL/ConvMAE]).
 
