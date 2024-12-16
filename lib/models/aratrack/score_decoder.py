@@ -1,5 +1,5 @@
 """
-SPM: Score Prediction Module
+state-aware head
 """
 import torch
 import torch.nn as nn
