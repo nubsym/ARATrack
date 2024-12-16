@@ -1,12 +1,12 @@
 # ARATrack
 
-The official implementation of ARATrack: Adaptive representation-aligned modeling for visual tracking
+The official implementation of ARATrack: [**Adaptive representation-aligned modeling for visual tracking**](https://www.sciencedirect.com/science/article/pii/S0950705124014813)
 
 ![ARATrack_Framework](tracking/ARATrack_framework.jpg)
 
 ## Brief Introduction
 Accurate object representations and reliable object states are essential for robust visual tracking. While current Transformer-based trackers use symmetric and asymmetric attention mechanisms to learn object representations, they often overlook attention discrepancies between the template and search region.
-These discrepancies can lead to the inclusion of distractors, which degrade the quality of the learned representations. To address this issue, we propose ARATrack, an adaptive \textcolor{red}{representation-aligned} tracker. Specifically, we present an representation-aligned attention (ARR), which adaptively refines object representations through a novel attention alignment strategy. This strategy ensures consistent attention between the template and search region, while minimizing interference from irrelevant features.
+These discrepancies can lead to the inclusion of distractors, which degrade the quality of the learned representations. To address this issue, we propose ARATrack, an adaptive \textcolor{red}{representation-aligned} tracker. Specifically, we present a representation-aligned attention (ARR), which adaptively refines object representations through a novel attention alignment strategy. This strategy ensures consistent attention between the template and search region, while minimizing interference from irrelevant features.
 Furthermore, to handle dynamic changes in object states, we propose a state-aware head that updates the object state based on the refined representations, enhancing robustness to appearance variations. 
 These components work synergistically, offering mutual guidance to ensure ARATrack delivers stable and reliable visual tracking. Extensive experiments on six benchmark datasets demonstrate that ARATrack outperforms other state-of-the-art trackers, achieving competitive performance across a wide range of tracking scenarios.
 
