@@ -3,6 +3,7 @@
 The official implementation of ARATrack: [**Adaptive representation-aligned modeling for visual tracking**](https://www.sciencedirect.com/science/article/pii/S0950705124014813)
 
 ![ARATrack_Framework](tracking/ARATrack_framework.jpg)
+![Representation-aligned Attention](tracking/ARATrack_bi-direction.jpg)
 
 ## Brief Introduction
 Accurate object representations and reliable object states are essential for robust visual tracking. While current Transformer-based trackers use symmetric and asymmetric attention mechanisms to learn object representations, they often overlook attention discrepancies between the template and search region.
