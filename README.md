@@ -1,6 +1,6 @@
-# ARATrack
+# ARATrack: Adaptive representation-aligned modeling for visual tracking
 
-The official implementation of ARATrack: [**Adaptive representation-aligned modeling for visual tracking**](https://www.sciencedirect.com/science/article/pii/S0950705124014813)
+The official implementation of ARATrack: [Knowledge-based Systems](https://www.sciencedirect.com/science/article/pii/S0950705124014813)
 
 ![ARATrack_Framework](tracking/ARATrack_framework.jpg)
 ![Representation-aligned Attention](tracking/ARATrack_bi-direction.jpg)
